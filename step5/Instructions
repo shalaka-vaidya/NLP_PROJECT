@@ -1,0 +1,2 @@
+evaluation.py: Used for 10 fold cross validation.Reports the accuracy of each part and the average accuracy.
+output: File which contains data free from stop words and can be used for this step.
