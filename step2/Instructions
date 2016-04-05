@@ -1,0 +1,3 @@
+data.txt: has the original data
+output: has the data.txt-stop words
+tagg.py: the code to convert data.txt to output
