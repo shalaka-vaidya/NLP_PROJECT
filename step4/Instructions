@@ -1,0 +1,3 @@
+train.py : where model is created
+pickle_pack : the pickle package created to store the model
+data.txt : sample data for training
