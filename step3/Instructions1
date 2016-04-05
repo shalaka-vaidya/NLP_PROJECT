@@ -1,0 +1,3 @@
+hello.py : takes the output file from previous stage and converts it to vocabulary.txt
+output : is the output file from previous stage (which contains no stop words)
+vocabulary.txt: is the file which contains words from output which occurs more than twice
