@@ -8,9 +8,9 @@ Members:
 The Corpus consists of 600 sentences (300 +ve and 300 -ve)  
 
 After the step 5 of part A the results obtained were as follows:  
-Accuracy for 1th part: 73.33%  
-Accuracy for 2th part: 68.33%  
-Accuracy for 3th part: 68.33%  
+Accuracy for 1st part: 73.33%  
+Accuracy for 2nd part: 68.33%  
+Accuracy for 3rd part: 68.33%  
 Accuracy for 4th part: 78.33%  
 Accuracy for 5th part: 100.0%  
 Accuracy for 6th part: 90.0%  
