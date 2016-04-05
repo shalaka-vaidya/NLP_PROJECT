@@ -1,0 +1,29 @@
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+
+stop_words= set(stopwords.words("english"))
+p=open('data.txt','r')
+s=p.read()
+p.close()
+s=s.split('\n')
+p=open('output','w')
+#s[i] gives sentence
+for i in range(0,600):
+	sent=""
+	t=s[i].split(']')
+	st=t[0]+']'+" "
+	m=t[1].lower()
+	m=m.split()
+	for x in m:
+		if x.isalpha():
+			sent=sent+x+" "
+	words = word_tokenize(sent)
+	sent=""
+	for w in words:
+		if not w in stop_words:
+			st=st+w+" "
+	st=st+"\n"
+	p.write(st)
+	
+p.close()	
+	
