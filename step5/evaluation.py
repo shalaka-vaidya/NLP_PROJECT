@@ -81,9 +81,9 @@ for i in range(1,11):
 	for t in text:
 		for w in s:
 			if '+' in w and t in w:
-				cpp=cpp+1
+				cpp=cpp+w.count(t)
 			elif t in w:
-				npp=npp+1
+				npp=npp+w.count(t)
 			
 		prob=(cpp+1.0)/(cp+n)		
 		resp[t]=prob
@@ -106,19 +106,19 @@ for i in range(1,11):
 	for x in test:
 		score2=0.0
 		score1=0.0
-		x=x.split()
-		for k in range(1,len(x)):
-			if x[k] in text:
-				score1=score1+math.log(d1[x[k]])
-				score2=score2+math.log(d2[x[k]])
+		m=x.split()
+		for k in range(1,len(m)):
+			if m[k] in text:
+				score1=score1+math.log(d1[m[k]])
+				score2=score2+math.log(d2[m[k]])
 			
 			
 		if score1 > score2:
-			if '+' in x[0]:
+			if '+' in m[0]:
 				tp=tp+1
 		
 		else:
-			if '-' in x[0]:
+			if '-' in m[0]:
 				tn=tn+1
 	
 	
