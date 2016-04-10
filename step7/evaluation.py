@@ -63,10 +63,10 @@ for i in range(1,11):
 	z=dict(y)
 	#print z
 	for key, value in z.iteritems():
-		if(value>2):
+		if(value>3):
 			t=key[0]+' '+key[1]
 			stp1.append(t)			
-	print len(stp1),len(stp)	
+	#print len(stp1),len(stp)	
 	fopen=open("vocabulary.txt","w")
 	for x in stp:
 		fopen.write(x+"\n")
