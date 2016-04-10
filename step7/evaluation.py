@@ -178,10 +178,18 @@ for i in range(1,11):
 		score2=0.0
 		score1=0.0
 		m=x.split()
-		for k in range(1,len(m)):
+		mlen=len(m)
+		for k in range(1,mlen):
 			if m[k] in text:
 				score1=score1+math.log(d1[m[k]])
 				score2=score2+math.log(d2[m[k]])
+		
+		for k in range(1,mlen-1):
+			if m[k] in text:
+				mstr=m[k]+" "+m[k+1]
+				if mstr in text:
+					score1=score1+math.log(d1[mstr])
+					score2=score2+math.log(d2[mstr])
 			
 			
 		if score1 > score2:
