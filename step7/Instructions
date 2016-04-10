@@ -1,0 +1,2 @@
+evaluation.py: uses both unigram and bigram features for calculation of accuracy
+output: input to evaluation.py
