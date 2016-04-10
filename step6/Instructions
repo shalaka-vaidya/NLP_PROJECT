@@ -1,0 +1,2 @@
+bigram.py: for adding unigrams and bigrams to vaocabulary
+output: output of step 3 is now input for bigram.py
