@@ -7,7 +7,7 @@ Members:
  
 The Corpus consists of 600 sentences (300 +ve and 300 -ve)  
 
-After the step 5 of part A the results obtained were as follows: (considering only unigrams)
+After the step 5 of part A the results obtained were as follows: (considering only unigrams)  
 Accuracy for 1st part: 70.0%  
 Accuracy for 2nd part: 71.67%  
 Accuracy for 3rd part: 70.0%  
@@ -20,7 +20,7 @@ Accuracy for 9th part: 88.33%
 Accuracy for 10th part: 95.0%  
 Overall accuracy: 81.0%  
 
-After the step 7 in part B the results obtained were as follows: (considering both unigrams and bigrams)
+After the step 7 in part B the results obtained were as follows: (considering both unigrams and bigrams)  
 Accuracy for 1st part: 70.0%  
 Accuracy for 2nd part: 70.0%  
 Accuracy for 3rd part: 68.33%  
