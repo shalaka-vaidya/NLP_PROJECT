@@ -1,2 +1,4 @@
-evaluation.py: uses both unigram and bigram features for calculation of accuracy
-output: input to evaluation.py
+evaluation.py: uses both unigram and bigram features for calculation of accuracy (simple addition of log values for both unigram and bigram).
+output: input to evaluation.py/modf_copy.py  
+modf_copy.py: uses both unigram and bigram features for calculation of accuracy (addition of log values for bigrams present in test set ,addition of remaining unigrams log values)   
+
