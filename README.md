@@ -21,15 +21,16 @@ Accuracy for 10th part: 95.0%
 Overall accuracy: 81.0%  
 
 After the step 7 in part B the results obtained were as follows: (considering both unigrams and bigrams)  
-Accuracy for 1st part: 70.0%  
-Accuracy for 2nd part: 68.33%   
-Accuracy for 3rd part: 68.33%    
-Accuracy for 4th part: 76.67%  
+Accuracy for 1th part: 71.67%  
+Accuracy for 2th part: 68.33%  
+Accuracy for 3th part: 68.33%  
+Accuracy for 4th part: 78.33%  
 Accuracy for 5th part: 98.33%  
 Accuracy for 6th part: 85.0%  
 Accuracy for 7th part: 88.33%  
 Accuracy for 8th part: 73.33%  
-Accuracy for 9th part: 90.0%  
+Accuracy for 9th part: 91.67%   
 Accuracy for 10th part: 96.67%  
-Overall accuracy: 81.5%  
+Overall accuracy: 82.0%  
+
   
